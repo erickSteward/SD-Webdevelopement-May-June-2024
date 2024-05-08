@@ -1,0 +1,6 @@
+Chapter 2: HTML Basics
+
+Introduction To HTML
+
+HTML is the standard Markup Language used to structure and define the content of the web pages.
+It provide a way to organize and present information on the WWW using a set of element,
