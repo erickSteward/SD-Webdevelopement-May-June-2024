@@ -166,4 +166,4 @@ Building and Maintiaining websites often involves a team of professinals with di
 
 7. System Administrators: Manage the web servers, hosting environment, and infrustucture required to host and deploy the website.
 
-Next Chaper 2 HTML BASICS
+Next Chaper 2 HTML BASIC
