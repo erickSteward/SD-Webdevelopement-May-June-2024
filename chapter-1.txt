@@ -131,6 +131,10 @@ This option is typically more expensive snf suitable for high-traffic websites o
 
 This option offers flexibility, scalability and high availablilty making it suitable for websited with flactuating or unpredicatabe traffic pattarms.
 
+Once the website developed and ready for publishing the files (HTML, CSS, JAVASCRIPT, Images, etc)are uploaded to the web server provided by hosting services.
+
+This process is known as publishing or deploying a website, making it accesible to anyone with an internet connerction and a corresponding URLs
+
 Web standard and best practices
 As a web continues to evolve, it is essential to follow web standards and best practicess to ensure that the website are accesible, usable and maintainable.
 Some key princible and guildlines incluced]
