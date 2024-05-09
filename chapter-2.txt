@@ -4,3 +4,93 @@ Introduction To HTML
 
 HTML is the standard Markup Language used to structure and define the content of the web pages.
 It provide a way to organize and present information on the WWW using a set of element,
+
+
+
+3. <head>: This element contains the metadat about the web page, such as title, character encoding and external resources(eg. CSS stylesheets, JavaScript files)
+
+4. <title>: The title of the web page, displayed in the broswers title bar or tab.
+
+5. <body>: This element contains the visible content of the web page, inclunding text, image links
+
+
+HTML ELEMENTS AND TAGs
+
+Defiantion OF HTML Elements and TAGs
+=> An HTML element represent a specific component type of content of a web page.
+=? HTML Tags are used to define and structure these elements
+=> Tags are enclosed into angle brackets
+=> Elements can have attributes that provide additional information or instruction
+
+opening and closing Tags
+=> Most HTML elements have an opening tag (<tag>) and a closing tag (</tag>).
+=> The content of the element is placed between then opening and closing tags.
+=> Some elements are self closing and dont require a closing tag(eg <br/>, <img/> <hr/>)
+
+Nested Tags and proper nesting
+-> HTML elements can be nested inside other element creating a hierachical structure.
+-> Proper nesting is essential for maintaining the logical structure of the documents and ensurinh correct rendering by web broswers.
+=> Child element must be fully contain withion thier parent elememt
+=> NEsted levels should be indented for better readable and maintainable code
+
+HTML elements for structure content
+-> Heading: <h1> <h2>h3><h4><h5><h6>
+-> paragraphs: <p> for creating paragraphs.
+-> Lists: <ul> (unordered), and <ol> (ordered) for creating list items with the <li> 
+-> Divistion: <div> for creating logical division or sections of content. 
+
+HTML Atrributes
+
+Defination of HTML Attributes
+
+Attributes provide additional information of instruction for HTML Elements
+->Attributes are specified within the opeing of an element, following the element name.
+
+common Atrributes
+-> id: Uniquely identifying an element on the web page
+-> class: Appliying a specific style or behaviour to an element or group of elemements. (use for stylring asnd scripting).
+-> Style: inline styles CSS styles applied directyle to the element
+-> src: specifies the sources location (URL) for external resources like images, multimedia, and scripts
+-> href: defines the destination URL for links.
+-> alt: Provides alternative text for images, essential for accessiblity.
+->title: Provides additional tooltips or information about elements
+-> Target: specified where an open linjed documents(eg _blank for a new window).
+
+Attributes Values and their formating
+-> Attributed values must be enclosed in quotation mark (single or double)
+-> Values can be text, URLs, or multiple values separated by spaces or specific delimitors.
+
+
+HTML Document structure in detail.
+
+Doctype declation
+-> The docTYpe declaration is the first line of an HTML document and specifics the version of the HTML used
+-> Example: <!DOCTYPE html>
+-> It helps web browers correctly render and interpret the HTML Code.
+
+
+2. <html> element and its children
+-> is the Root element  of the HTML document
+-> contains two main sections: <head> and the <body>
+
+3. <head> elements
+-> The head element comtains metadata about the web page, such as title, character encoding, and links to external resources
+-> common elements inside <head>
+    <title>: Defines the title bar or tab
+    <meta> : Provides meatadata about the web page, such as character encoding, description, keywords, and viewports settongs
+    <link>: used to link external resources like CSS stylessheet to the web page.
+    <style>: allows for enbeding internal CSS within the HTNML document
+    <script>: used for enbedding or linking external Javascript files for adding interactivity.
+
+4. <body> element
+->the <body> contain the visible element of the web page.
+-> All structural and semantic element (headings, paragraphs, images, links, etc) are placed within the body section.
+-> Content within the body is rendered and displayed in the browser window.
+
+Challenge time
+-> Create a basic HTML document with a properly structure <head> and <body> section.
+-> In the <head> section, include a title , meta tags for character encoding and viewports, and links to external stylessheet and scripts.
+-> In the <body> section, create a simple page layout with various elements, such as headings(<h1>,<h2>,<h3>,etc), paragraphs<p>, links<a>, images<img/>, and list(<ol> or <ul>)
+-> Apply different attributes to the elements such as id, class, styles, src, href, alt, title, and targets
+-> ensure proper nesting and hierachical of elemements
+-> Include comments in the HTML code to explain the purpose and structural of diffent section.
