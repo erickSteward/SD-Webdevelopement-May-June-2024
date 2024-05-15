@@ -1,0 +1,91 @@
+CHAPTER 6: IMAGES
+Introduction to images on the web
+Importance of images in web design:
+• Images play a crucial role in enhancing the visual appeal and user experience of websites.
+• They can convey information, create emotional connections, and make content more
+engaging and memorable.
+• Properly used images can improve the overall aesthetics, clarity, and usability of web pages.
+Image file formats:
+• JPEG (Joint Photographic Experts Group): Best suited for photographs and complex images
+with many colors.
+• PNG (Portable Network Graphics): Ideal for graphics with transparent backgrounds, logos,
+and simple images with fewer colors.
+• GIF (Graphics Interchange Format): Commonly used for simple animations and images with
+limited color palettes.
+• SVG (Scalable Vector Graphics): An XML-based vector image format that scales well and
+supports animations and interactivity.
+Inserting images
+<img> element for adding images:
+• The <img> element is used to insert images into web pages.
+• It is a self-closing tag that does not have a closing tag.
+src attribute for specifying the image source:
+• The src attribute is used to specify the URL or file path of the image to be displayed.
+• The URL can be absolute (e.g., https://www.example.com/image.jpg) or relative to the
+current page (e.g., images/image.jpg).
+alt attribute for providing alternative text:
+• The alt attribute provides alternative text for the image, which is displayed when the image
+cannot be loaded or for users who rely on screen readers or other assistive technologies.
+• Alternative text should be descriptive and convey the purpose or content of the image.
+• Example: <img src="logo.png" alt="Company Logo">
+Image attributes
+width and height attributes for resizing images:
+• The width and height attributes specify the dimensions of the image in pixels or as a
+percentage.
+• Resizing images using these attributes can improve page load times and user experience.
+• Example: <img src="image.jpg" width="500" height="300">
+title attribute for providing additional information:
+• The title attribute provides additional information or a tooltip about the image.
+• This information is displayed as a tooltip when the user hovers over the image.
+• Example: <img src="product.jpg" alt="Product Image" title="Our latest product">
+loading attribute for controlling image loading behavior:
+• The loading attribute, introduced in HTML5, allows you to control the loading behavior of
+images.
+• Possible values include auto (default), lazy (defers loading until the image is visible), and
+eager (loads immediately).
+• Example: <img src="large-image.jpg" loading="lazy">
+Image optimization
+Image compression and file size optimization:
+• Optimizing image file sizes is crucial for improving website performance and reducing page
+load times.
+• Tools like ImageOptim, TinyPNG, or online compression services can help reduce image file
+sizes without sacrificing quality.
+Responsive images and resolution considerations:
+• Responsive images adapt to different screen sizes and resolutions, ensuring optimal display
+on various devices.
+• Techniques like using the srcset and sizes attributes, or employing responsive image
+techniques with CSS and JavaScript, can provide better user experiences.
+Figures and captions
+<figure> and <figcaption> elements for grouping images with captions:
+• The <figure> element represents a self-contained content unit, typically an image or
+illustration.
+• The <figcaption> element provides a caption or description for the <figure> content.
+• Example:
+<figure>
+ <img src="image.jpg" alt="Example Image">
+ <figcaption>This is an example image with a caption.</figcaption>
+</figure>
+Student challenge:
+• Create a gallery of images with appropriate sizing, captions, and alternative text.
+• Experiment with different image formats (JPEG, PNG, GIF, SVG) and their suitability for
+various types of images.
+• Optimize the file sizes of the images using compression tools or online services.
+• Implement responsive image techniques to ensure optimal display on different screen sizes
+and resolutions.
+Practical example:
+• Build a product showcase webpage with multiple images, optimized for different screen sizes
+and resolutions.
+• Use the <figure> and <figcaption> elements to display product images with descriptive
+captions.
+• Implement the loading attribute for lazy-loading large images or prioritizing critical images.
+• Incorporate image optimization techniques to reduce file sizes without compromising quality.
+• Style the images and captions using CSS for an appealing layout and presentation.
+Summary:
+• Images play a vital role in enhancing the visual appeal and usability of websites.
+• The <img> element and its attributes (src, alt, width, height, etc.) are used to insert and
+control images on web pages.
+• Image optimization techniques, such as compression and responsive image techniques, are
+crucial for improving website performance and user experience.
+• The <figure> and <figcaption> elements provide a semantic way to group images with
+captions.
+• Proper use of alternative text and descriptive captions improves accessibility and
+understanding of image content.

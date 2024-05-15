@@ -2,7 +2,7 @@ Chapter 3: Paragraphs, Headings and other heading tags
 
 Paragraphs:
 -> <p> element for creating Paragraphs:
-    The <p> element represent a Paragraphsof text.
+    The <p> element represent a Paragraphs of text.
     it is a block label element, meaning it starts on a new line and creates a vertical spacing befor and after its contents.
 
     Paragraphs are essensial for organizatinf and structurting text context on web pages

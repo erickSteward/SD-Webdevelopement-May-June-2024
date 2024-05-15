@@ -1,0 +1,100 @@
+CHAPTER 5: HYPERLINKS
+
+Introduction to hyperlinks
+
+Definition and purpose of hyperlinks:
+-> Hyperlinks, commonly known as links, are the fundamental building blocks of the World
+Wide Web.
+-> They allow users to navigate from one web page or resource to another by clicking on or
+activating a linked text, image, or other element.
+• Hyperlinks enable the interconnectivity and seamless navigation between different web
+pages and websites.
+Different types of hyperlinks:
+• Internal links: Links that navigate within the same website or web page (e.g., anchor links).
+• External links: Links that navigate to a different website or web page.
+• File links: Links that allow users to download or access specific files (e.g., PDF, Word
+documents, images).
+• Email links: Links that open the user's email client with a pre-populated email address or
+subject line.
+Creating hyperlinks
+<a> element for creating links:
+• The <a> element, short for "anchor," is used to create hyperlinks in HTML.
+• The href attribute within the <a> element specifies the destination URL or resource to link to.
+• Example: <a href="https://www.example.com">Visit Example Website</a>
+href attribute for specifying the link destination:
+• The href attribute provides the URL or path to the linked resource.
+• URLs can be absolute (e.g., https://www.example.com) or relative (e.g., ./about.html).
+• The href attribute can also point to other protocols, such as mailto: for email links or tel: for
+phone links.
+Link text and formatting:
+• The text between the opening and closing <a> tags represents the clickable or tappable
+portion of the link.
+• Links can be styled using CSS properties like color, text-decoration, and font-weight.
+• Example: <a href="https://www.example.com" style="color: blue; text-decoration:
+underline;">Visit Example Website</a>
+Linking to external resources
+Linking to other websites:
+• To link to another website, provide the complete URL in the href attribute.
+• Example: <a href="https://www.google.com">Google</a>
+Linking to files (documents, images, etc.):
+• The href attribute can be used to link to various file types, such as PDFs, Word documents, or
+images.
+• Example: <a href="documents/report.pdf">Download Report</a>
+Internal linking
+Linking within the same website:
+• Internal links are used to navigate between different pages or sections within the same
+website.
+• Provide the relative path to the target page or file in the href attribute.
+• Example: <a href="about.html">About Us</a>
+Using relative and absolute paths:
+• Relative paths are used to link to resources within the same website, starting from the
+current file's location.
+• Absolute paths provide the full URL, including the domain, to link to resources within the
+same website.
+Anchor links for navigating within a page:
+• Anchor links, also known as fragment identifiers or hash links, allow navigation to specific
+sections within the same web page.
+• They use the id attribute on the target element and the corresponding #id in the href
+attribute of the link.
+• Example: <a href="#section2">Jump to Section 2</a> and <h2 id="section2">Section 2</h2>
+Link attributes
+target attribute for specifying link behavior:
+• The target attribute determines how the linked resource will be displayed when the link is
+clicked or activated.
+• Common values include _self (opens in the same window/tab), _blank (opens in a new
+window/tab), and _parent (opens in the parent frame).
+title attribute for providing additional information about the link:
+• The title attribute allows you to provide additional information or a tooltip about the linked
+resource.
+• This information is displayed as a tooltip when the user hovers over the link.
+• Example: <a href="https://www.example.com" title="Visit our website">Example
+Website</a>
+Student challenge:
+• Create a webpage with various types of hyperlinks, including internal and external links, file
+links, and anchor links.
+• Experiment with different link styles using CSS.
+• Implement a navigation menu with internal links to different sections within the same page.
+• Include a link to download a file (e.g., a PDF document or an image).
+• Use the target attribute to specify how certain links should open (e.g., in a new tab or
+window).
+Practical example:
+• Build a simple website with multiple pages and implement proper internal and external
+linking.
+• Create a header or navigation menu with internal links to different sections or pages within
+the website.
+• Include external links to relevant resources or other websites.
+• Add anchor links within a long page to allow users to quickly navigate to specific sections.
+• Provide file links for users to download resources like PDFs or images.
+• Style the links using CSS to enhance their visual appearance and make them more userfriendly.
+Summary:
+• Hyperlinks are the foundation of the World Wide Web, enabling navigation between web
+pages and resources.
+• The <a> element and its href attribute are used to create hyperlinks in HTML.
+• Links can be internal (within the same website), external (to other websites), or reference
+files or email addresses.
+• Relative and absolute paths are used for internal linking, while anchor links allow navigation
+within the same page.
+• Link attributes like target and title provide control over link behavior and additional
+information.
+• Proper implementation of hyperlinks, combined with CSS styling, enhances the user
+experience and navigation of websites.

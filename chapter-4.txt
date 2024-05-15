@@ -1,0 +1,124 @@
+Chapter 4: TEXT FORMATTING
+
+Basic Text Formatting
+
+Bold(<b> or <Strong>) and italic(<i> or <em>) text:
+-> <b> and <strong> elements are used to make text bold.
+-> <i> and <em> elements are used to make text italic.
+-> While <b> and <i> are purely for visual styling, <strong> and <em> are semantic elements that convey additional importance or emphasis.
+
+Example: <p> This is <strong> important </strong> text, and <em>this is emphasized</em><p>
+
+Underline(<u>)and strike-through(<s>or<del>)text:
+-> <u>elements is used to underline text.
+-> <s>or<del>elements are used to strike through text, typically indicating deleted or outdated content.
+
+Example: <p>This text is <u>underlined</u>, and <del>this text is struck through</del></p>
+
+Subscript(<sub>) and Supercsript(<sup>):
+-> <sub> element is used for subscript text, which is typically smaller and positioned below the baseline.
+-> <sup> element is used for superscript text, which typically smaller and positioned above the baseline.
+-> These elements are commonly used for mathematical and scientic notations.
+
+Example: <p>This is the chemical formula for water: H<sub>2</sub>O, and 2<sup>3</sup>=8</p>
+
+
+Formatting text with semantic elements
+
+<strong> and <em> for emphasizing text:
+-> <strong> element is used to convey strong importance, emphasis, or urgency.
+-> <em> element is used to oconvey stress emphasis or semantic emphasis.
+-> These emelents are prefered over <b> and <i> for better sementics and accesisbility.
+
+<code> for representing code snippets:
+-> The <code> element is used to convey a fragment of computer code.
+-> It typically applies monospace font styling to the enclosed text.
+
+Example: <p>To create a function in javaScript, use the keyword <code>function</code></p>
+
+<pre> for preserving whitespace and formatting.
+-> The <pre> element is used to display preformatted text, preserving whitespace(spaces, tabs, and line breaks) and formatting.
+-> Text within <pre> is typically displayed using a monospace font.
+-> it is useful for displaying code snippets or examples with indentation and line breaks intact.
+
+Example:
+
+<pre>
+
+function greet(name){
+    console.log("Hello," + name + "!"){
+
+    }
+}
+
+</pre>
+
+
+Character Entities
+
+Introduction to character entities.
+-> Charater entities are used to include special characters or symbols that are not part of the standard character set or keyboard.
+-> They are represented by a combination of an ampersand (&), an entity name or number, and a semicolon(;),
+
+Common character entities:
+-> &lt; for less than (<)
+-> &gt; for greater than (>)
+-> &amp; for ampersand (&)
+-> &quot; for double quotes (")
+-> &apos; for single quotes (')
+-> &nbsp; for a non-breaking space
+
+Using character entities for special characters:
+-> Character entities are useful when you need to include special characters or symbols that
+have specific meanings in HTML, such as angle brackets (<>) or ampersands (&).
+
+Example: <p>The HTML element for a paragraph is &lt;p&gt;.</p>
+Styling text with CSS
+
+Introduction to CSS and its role in text formatting:
+->CSS (Cascading Style Sheets) is a language used for styling and controlling the presentation of
+web pages.
+-> CSS allows you to define styles for various HTML elements, including text formatting.
+
+
+Basic CSS properties for text:
+-> color: Sets the text color.
+-> font-family: Specifies the font family for the text.
+-> font-size: Sets the size of the text.
+-> font-weight: Controls the boldness of the text.
+-> font-style: Sets the text style to normal, italic, or oblique.
+-> text-decoration: Applies decorations like underline, overline, or line-through.
+-> text-align: Aligns the text horizontally (left, right, center, or justify).
+
+Inline styles vs. internal and external stylesheets:
+-> Inline styles: CSS styles applied directly to an HTML element using the style attribute.
+-> Internal stylesheet: CSS styles defined within the <style> element in the <head> section of
+the HTML document.
+-> External stylesheet: CSS styles stored in a separate .css file and linked to the HTML
+document using the <link> element.
+
+
+Student challenge:
+-> Create a document with various text formatting examples, using both HTML elements and
+CSS styles.
+-> Experiment with bold, italic, underlined, strike-through, subscript, and superscript text using
+the appropriate HTML elements.
+-> Use semantic elements like <strong>, <em>, <code>, and <pre> to format text with specific
+meanings.
+-> Include character entities to display special characters or symbols.
+-> Apply CSS styles to format text properties like color, font family, font size, and text alignment.
+
+Practical example:
+-> Format a poem or code snippet using appropriate text formatting elements and styles.
+-> Use <em> and <strong> elements to emphasize specific words or phrases in the poem.
+-> Utilize the <pre> element to preserve the formatting and indentation of the code snippet.
+-> Apply CSS styles to change the font family, font size, and text color of the content.
+-> Include character entities to display any special characters or symbols within the content.
+
+Summary:
+-> HTML provides various elements for basic text formatting, such as <b>, <i>, <u>, <s>, <sub>,
+and <sup>.
+-> Semantic elements like <strong>, <em>, <code>, and <pre> offer better accessibility and
+meaning for text formatting.
+-> Character entities are used to include special characters or symbols that are not part of the
+standard character set.

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Text formatting</title>
+        <style>
+            body{
+                font-family: 'Segoe UI', sans-serif;
+                line-height: 1.6;
+                color: #333;
+                background-color: #f7f7f7;
+                padding: 20px;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+
+            h1, h2, h3{
+                color: #2c3e50;
+                font-weight: bold;
+
+            }
+
+            h1{
+                font-size: 36px;
+                text-align: center;
+                border-bottom: 2px solid #2c3e50;
+                padding-bottom: 10px;
+            }
+
+            code{
+                background-color: rgb(93, 109, 94);
+                padding: 2px 4px;
+                border-radius: 5px;
+                color: white;
+            }
+
+            mark{
+                background-color: grey;
+            }
+
+            pre{
+                background-color: #494949;
+                padding: 10px;
+                border-radius: 6px;
+                overflow-x: auto;
+                color: white;
+            }
+
+            del{
+                color: #999;
+            }
+
+            ins{
+                color: #155724;
+                background-color: #d4edda ;
+                padding: 2px 4px;
+                border-radius: 4px;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>HTML Text formatting</h1>
+
+        <h2>Headings</h2>
+        <p>HTML provides six levels of headings, from <Code>&lt;h1&gt;</Code> (largest) to <code>&lt;h6&gt;</code> (smallest)</p>
+
+        <h3>Paragraphs and Line breaks</h3>
+        <p>This is a regular paragraph of text. you can create a new paragraph by using the <code>&lt;p&gt;</code> tag.</p>
+        <p>To create a line break within a paragraph, use the <br> line break element</p>
+
+        <h3>Text Formatting</h3>
+        <p>You can make text <b>bold</b>using the &lt;b&gt; tag or make it <strong>strong</strong> using the &lt;strong&gt; tag.</p>
+        <p>You can <i>italicize</i> text using the <code>&lt;i&gt;</code> or emphasize it using the <code>&lt;h6&gt;</code> tag, like <em>this</em>.</p>
+
+        <p>You can also <mark>highlight</mark> text using the <code>&lt;mark&gt;</code> tag. </p>
+        <p>You can <del>strike through</del> text using the <code>&lt;i&gt;</code> tag.</p>
+        <p>You can <ins>underline</ins> text using the <code>&lt;ins&gt;</code> tag.</p>
+        <p>You can use <code>&lt;sub&gt;</code> tag for subscript, like H <sub>2</sub>O, and the <code>&lt;mark&gt;</code> tag for subscript, like x <sup>2</sup>.</p>
+
+        <h3>Character Entities</h3>
+        <p>You can use the <code>&lt;code&gt;</code> tag. to display code snippets inline, like 
+        <code>console.log('Hello, everyone!');</code></p>
+
+        <p>For longer code blocks, you can use <code>&lt;pre&gt;</code> tag, which preserves white spaces formatting.</p>
+
+        <pre>
+            function greet(name){
+                console.log(`Hello, ' + ${name}!`);
+            }
+
+            green(dennis); 
+        </pre>
+
+    </body>
+</html>
