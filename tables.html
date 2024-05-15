@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Tables</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin-right: 500px;
+                
+            }
+            h1{
+                text-align: center;
+                color: #333;
+            }
+
+            table{
+                width: 100%;
+                margin-top: 20px;
+                border-collapse: collapse;
+            }
+
+            caption{
+                margin-bottom: 10px;
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+
+            th, td{
+                padding: 10px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+            th{
+                background-color: #f2f2f2f2;
+            }
+
+            tr:nth-child(even){
+                background-color: #f9f9f9f9;
+            }
+        </style>
+</head>
+<body>
+    <h1>Students Grade Table</h1>
+
+    <table>
+        <caption>Grade Summary Semester one.</caption>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Course</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Joan Noah</td>
+                <td>Web Develoment</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Ephrahim Imani.</td>
+                <td>Java Programming</td>
+                <td>A-</td>
+            </tr>
+            <tr>
+                <td>Elivs Kamau</td>
+                <td>Python Programming</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>Erick Maina</td>
+                <td>Software Developement</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Brian Mwenda</td>
+                <td>Web Develoment</td>
+                <td>B</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
